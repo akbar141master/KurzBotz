@@ -31,8 +31,8 @@ require('./kurr.js')
 nocache('./kurr.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (kurr = new WAConnection()) => {
-	console.log(color('SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH KURRXD\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•Aldy Fauzy\n•Kemol\n•ADI\n•KurrXd\n•YUDHA\n•PAJARn•Dcode Denpa\n•Finx\n•SELURUH SUBSCRIBERKU', 'yellow'))
-	console.log(color('\n\nJANGAN DI JUAL  BRO😑\nKALAU ADA YG JUAL SURUH CHAT ©KurrXd\nWA 6281220670449', 'pink'))
+	console.log(color('SOURCE CODE INI DIJAGA DAN DI LINDUNGI OLEH MONSTER\n\n', 'orange'), color('\n======TERIMKASIH BANYAK KEPADA======\n•Aldy Fauzy\n•Kemol\n•ADI\n•MONSTER\n•YUDHA\n•PAJARn•Dcode Denpa\n•Finx\n•SELURUH SUBSCRIBERKU', 'yellow'))
+	console.log(color('\n\nJANGAN DI JUAL  BRO😑\nKALAU ADA YG JUAL SURUH CHAT ©MONSTER\nWA 919677331878', 'pink'))
     kurr.logger.level = 'warn'
     kurr.version = [2, 2143, 3]
     kurr.browserDescription = [ 'kurr', 'Chrome', '3.0' ]
@@ -57,8 +57,8 @@ const starts = async (kurr = new WAConnection()) => {
 
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
+        ownerNumber = ["919677331878@s.whatsapp.net","919677331878@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "919677331878@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
 
@@ -68,10 +68,10 @@ if (!welkom.includes(anu.jid)) return
 		try {
 		    fkontakk = { key: {
 		    fromMe: false,
-		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6281220670449-6281220670449@g.us' } : {})
+		    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '919677331878-919677331878@g.us' } : {})
 		    },
 		    message: {
-		    "contactMessage":{"displayName":fake,"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;kurr;;;\nFN:kurr\nitem1.TEL;waid=6281220670449:+62 81220670449\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+		    "contactMessage":{"displayName":fake,"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;kurr;;;\nFN:kurr\nitem1.TEL;waid=919677331878:+62 81220670449\nitem1.X-ABLabel:Mobile\nEND:VCARD"
 		     }}}
 		     const mdata = await kurr.groupMetadata(anu.jid)
          num = anu.participants[0]
@@ -152,11 +152,11 @@ quoted: {
 },
 "message": {
 "groupInviteMessage": {
-"groupJid": "628983583288-1620319322@g.us",
+"groupJid": "919677331878-1620319322@g.us",
 "inviteCode": "NgsCIU2lXKh3VHJT",
 "groupName": "IstMekurr",
 "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
-"caption": `kurr XD`
+"caption": `MONSTER`
 }
 
 }
@@ -175,11 +175,11 @@ quoted: {
 },
 "message": {
 "groupInviteMessage": {
-"groupJid": "628983583288-1620319322@g.us",
+"groupJid": "919677331878-1620319322@g.us",
 "inviteCode": "NgsCIU2lXKh3VHJT",
 "groupName": "IstMekurr",
 "jpegThumbnail": fs.readFileSync('./media/thumb.jpg'),
-"caption": `kurr XD`
+"caption": `MONSTER`
 }
 }
 }
